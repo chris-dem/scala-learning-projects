@@ -1,0 +1,3 @@
+package misc
+
+class MapLogger {}

@@ -30,7 +30,7 @@ import org.scalajs.dom
       ),
       startGameBus.events.sample(inputVar.signal) --> Observer[Int] {
           inputData =>
-              val theGame = new TheGame(inputData)
+              val theGame = new TheGame(10, 10)
 
               theGame.launch(
                 canvasId,
